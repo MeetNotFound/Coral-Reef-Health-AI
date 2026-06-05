@@ -35,7 +35,7 @@ The model was trained on a dataset containing over 2,500 coral reef images:
 | Dead Corals     | 150    |
 | Healthy Corals  | 1,150  |
 
-Total Images: **2,556**
+**Total Images:** 2,556
 
 ---
 
@@ -51,23 +51,29 @@ The CNN architecture consists of:
 * Dropout (0.3)
 * Softmax Output Layer (3 Classes)
 
-Total Trainable Parameters: **3.3 Million**
+**Total Trainable Parameters:** 3.3 Million
 
 ---
 
-## Training Performance
+## Application Screenshots
 
-![Training Accuracy](docs/screenshots/training_accuracy.png)
+### Home Screen
 
-The model converged successfully during training and achieved stable validation performance across multiple epochs.
+![Home Screen](docs/screenshots/home.png)
 
----
+The landing page provides an intuitive interface for coral image analysis.
 
-## Prediction Example
+### Image Upload
 
-![Prediction Example](docs/screenshots/prediction_example.png)
+![Upload Image](docs/screenshots/upload.png)
 
-The application accepts coral reef images and generates class probabilities along with the final health classification.
+Users can upload underwater coral reef images for automated health assessment.
+
+### Prediction Example
+
+![Prediction Example](docs/screenshots/prediction.png)
+
+The application generates class probabilities and predicts whether the coral is Healthy, Bleached, or Dead.
 
 ---
 
@@ -98,7 +104,7 @@ The model demonstrated strong performance in identifying healthy and bleached co
 
 ![Confusion Matrix](docs/screenshots/confusion_matrix.png)
 
-The confusion matrix illustrates model predictions across all three coral health categories and highlights the effect of dataset imbalance on minority-class detection.
+The confusion matrix visualizes prediction performance across all coral health categories and highlights the impact of dataset imbalance on minority-class detection.
 
 ---
 
