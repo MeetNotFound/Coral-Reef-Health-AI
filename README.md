@@ -141,4 +141,4 @@ https://coral-reef-health-ai-jogw9eiudfghfg7ncrpcip.streamlit.app/
 
 ## License
 
-MIT License
+This project is provided for educational and portfolio purposes.
