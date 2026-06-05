@@ -1,6 +1,3 @@
-## Live Demo  
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://coral-reef-health-ai-jogw9eiudfghfg7ncrpcip.streamlit.app/)
-
 # AI-Powered Coral Reef Health Monitoring System
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://coral-reef-health-ai-jogw9eiudfghfg7ncrpcip.streamlit.app/)
